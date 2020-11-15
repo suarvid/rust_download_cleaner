@@ -7,7 +7,7 @@ use std::fs;
 use std::io;
 use std::path::Path;
 
-// TODO: implement move-functions for different file extensions
+// TODO: make functions return Results, implement error-handeling in main.rs
 
 pub fn run() {
     let download_path: &Path;
